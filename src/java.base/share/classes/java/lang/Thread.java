@@ -1894,6 +1894,10 @@ public class Thread implements Runnable {
     private static volatile UncaughtExceptionHandler defaultUncaughtExceptionHandler;
 
     /**
+     * 下面注释意思是：当某个线程由于未捕获的异常，突然中断，那么会调用一个默认的处理方法，这个方法可以通过下面的这个方法来设置，
+     * 似乎它是修改所有线程的默认处理方法。
+     *
+     *
      * Set the default handler invoked when a thread abruptly terminates
      * due to an uncaught exception, and no other handler has been defined
      * for that thread.
