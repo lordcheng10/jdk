@@ -26,6 +26,9 @@
 package java.lang;
 
 /**
+ * 下面的注释含义是：当jvm不能为一个object分配内存的时候，就会抛OutOfMemoryError错误，
+ * 参考：https://blog.csdn.net/renfufei/article/details/76350794
+ *
  * Thrown when the Java Virtual Machine cannot allocate an object
  * because it is out of memory, and no more memory could be made
  * available by the garbage collector.

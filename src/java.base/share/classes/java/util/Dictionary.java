@@ -26,6 +26,8 @@
 package java.util;
 
 /**
+ * Dictionary是一个抽象类，具体作用是啥？
+ *
  * The {@code Dictionary} class is the abstract parent of any
  * class, such as {@code Hashtable}, which maps keys to values.
  * Every key and every value is an object. In any one {@code Dictionary}

@@ -1907,6 +1907,8 @@ public final class String
     }
 
     /**
+     * 这个方法就是忽略字符串大小写进行比较
+     *
      * Compares this {@code String} to another {@code String}, ignoring case
      * considerations.  Two strings are considered equal ignoring case if they
      * are of the same length and corresponding Unicode code points in the two
@@ -2140,6 +2142,8 @@ public final class String
     }
 
     /**
+     * 这个方法是用来比较两个字符串是否相等，其中ignoreCase是代表是否要忽略大小写进行比较的意思。
+     *
      * Tests if two string regions are equal.
      * <p>
      * A substring of this {@code String} object is compared to a substring
