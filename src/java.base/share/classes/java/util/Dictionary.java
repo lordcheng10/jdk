@@ -27,6 +27,8 @@ package java.util;
 
 /**
  * Dictionary是一个抽象类，具体作用是啥？
+ * 首先看下这个类的修饰符：public abstract  ，表明是一个抽象类。这里不知道是为了美观还是啥（也没觉得美观啊）修饰符和类名换行了
+ * 感觉好奇怪，没发现有啥好处
  *
  * The {@code Dictionary} class is the abstract parent of any
  * class, such as {@code Hashtable}, which maps keys to values.
